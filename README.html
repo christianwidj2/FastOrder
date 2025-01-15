@@ -27,7 +27,7 @@
     </style>
 </head>
 <body>
-    <h1>Food Ordering - Web Application Instructions</h1>
+    <h1>FastOrder - Web Application Instructions</h1>
 
     <div class="section">
         <h2>Admin Credentials</h2>
@@ -42,12 +42,13 @@
         <h2>Setup & Configuration</h2>
         <p>Follow the steps below to set up and configure the website:</p>
         <ul>
-            <li>Ensure you have a database server (e.g., MySQL, SQL Server) set up and running.</li>
-            <li>Import the provided database schema file (<i>schema.sql</i>) into your database server.</li>
-            <li>Edit the connection string in the configuration file (<i>web.config</i> or equivalent) to match your database credentials.</li>
-            <li>Deploy the application files to a web server supporting ASP.NET (e.g., IIS).</li>
-            <li>Ensure the application dependencies are installed and up-to-date (e.g., via NuGet).</li>
-            <li>Access the website by navigating to its URL (e.g., <i>http://localhost:port/</i>).</li>
+            <li>Ensure you have a database server (MS SQL Server Express) set up and running.</li>
+            <li>Create new database named <b>FoodOrderingDB</b> (You can user SSMS 20 for best compatibility).</li>
+            <li>Import the provided database schema file (<b>FastOrder.sql</b>) into the database server.</li>
+            <li>Edit the connection string in the configuration file (<b>Web.config</b>) to match the database credentials. (<b><i>If you name the database correctly, then there should no need to do this step</i></b>).</li>
+            <li>Open the project on <i>Visual Studio 2022</i> and open <i>Solution Explorer</i>.</li>
+            <li>In the <b>User</b> folder, right click the <b>Default.aspx</b> file, and set it to <b>Set As Start Page</b>.</li>
+            <li>Access the website by running the project.</li>
         </ul>
     </div>
 
